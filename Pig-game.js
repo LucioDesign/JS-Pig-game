@@ -85,7 +85,7 @@ btnHold.addEventListener('click', function(){
         masterScore[activePlayer] += currentScore
       document.getElementById(`score--${activePlayer}`).textContent = masterScore[activePlayer];
     // winning panel
-    if (masterScore[activePlayer] >= 10){
+    if (masterScore[activePlayer] >= 100){
        
         playing = false;
         hide();
